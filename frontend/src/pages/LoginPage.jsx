@@ -6,7 +6,7 @@ export default function LoginPage(){
     return(
         <div className="text-white h-[100vh] flex justify-center items-center bg-cover" style={{"backgroundImage": "url(./src/assets/register_background.jpg)"}}>  
             <main>
-                <div className="bg-slate-800 bprder border-slate-400 rounded-md p-8 shadow-lg backdrop-filter backdrop-blur-sm bg-opacity-75 relative">
+                <div className="bg-slate-800 bprder border-slate-400 rounded-md p-8 shadow-lg backdrop-filter backdrop-blur-xl bg-opacity-75 relative">
                 <div className="text-4xl text-white font-bold text-center mb-6">Login</div>
                 <form action="" className="flex flex-col">
                     <div className="relative my-6">

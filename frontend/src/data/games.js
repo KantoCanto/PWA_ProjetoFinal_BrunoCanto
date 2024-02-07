@@ -460,7 +460,7 @@ const games = [
             "official_url": null,
             "platforms": [
                 {
-                    "first_release_date": "1999-02",
+                    "first_release_date": "1999",
                     "platform_id": 3,
                     "platform_name": "Windows"
                 },
@@ -577,7 +577,7 @@ const games = [
             "official_url": null,
             "platforms": [
                 {
-                    "first_release_date": "1989-12",
+                    "first_release_date": "1989",
                     "platform_id": 2,
                     "platform_name": "DOS"
                 },
@@ -1105,12 +1105,12 @@ const games = [
             "official_url": null,
             "platforms": [
                 {
-                    "first_release_date": "1986-08",
+                    "first_release_date": "1986",
                     "platform_id": 2,
                     "platform_name": "DOS"
                 },
                 {
-                    "first_release_date": "1986-09",
+                    "first_release_date": "1986",
                     "platform_id": 19,
                     "platform_name": "Amiga"
                 },
@@ -1239,7 +1239,7 @@ const games = [
             "official_url": null,
             "platforms": [
                 {
-                    "first_release_date": "1989-03",
+                    "first_release_date": "1989",
                     "platform_id": 2,
                     "platform_name": "DOS"
                 },
@@ -1678,7 +1678,7 @@ const games = [
             "official_url": null,
             "platforms": [
                 {
-                    "first_release_date": "1996-03",
+                    "first_release_date": "1996",
                     "platform_id": 5,
                     "platform_name": "Windows 3.x"
                 },
@@ -1802,7 +1802,7 @@ const games = [
             "official_url": null,
             "platforms": [
                 {
-                    "first_release_date": "1989-03",
+                    "first_release_date": "1989",
                     "platform_id": 2,
                     "platform_name": "DOS"
                 },
@@ -2708,7 +2708,7 @@ const games = [
             "official_url": null,
             "platforms": [
                 {
-                    "first_release_date": "1988-09",
+                    "first_release_date": "1988",
                     "platform_id": 2,
                     "platform_name": "DOS"
                 },
@@ -2937,7 +2937,7 @@ const games = [
             "official_url": null,
             "platforms": [
                 {
-                    "first_release_date": "1988-12",
+                    "first_release_date": "1988",
                     "platform_id": 2,
                     "platform_name": "DOS"
                 },
@@ -3214,7 +3214,7 @@ const games = [
             "official_url": null,
             "platforms": [
                 {
-                    "first_release_date": "2016-07-21",
+                    "first_release_date": "2016",
                     "platform_id": 1,
                     "platform_name": "Linux"
                 },
@@ -3633,7 +3633,7 @@ const games = [
             "official_url": null,
             "platforms": [
                 {
-                    "first_release_date": "1986-09",
+                    "first_release_date": "1986",
                     "platform_id": 2,
                     "platform_name": "DOS"
                 },
@@ -3888,7 +3888,7 @@ const games = [
             "official_url": null,
             "platforms": [
                 {
-                    "first_release_date": "1989-12",
+                    "first_release_date": "1989",
                     "platform_id": 2,
                     "platform_name": "DOS"
                 },
@@ -4274,7 +4274,7 @@ const games = [
             "official_url": null,
             "platforms": [
                 {
-                    "first_release_date": "1988-05",
+                    "first_release_date": "1988",
                     "platform_id": 2,
                     "platform_name": "DOS"
                 },
@@ -4614,7 +4614,7 @@ const games = [
             "official_url": null,
             "platforms": [
                 {
-                    "first_release_date": "1987-10",
+                    "first_release_date": "1987",
                     "platform_id": 2,
                     "platform_name": "DOS"
                 },
@@ -5389,7 +5389,7 @@ const games = [
             "official_url": null,
             "platforms": [
                 {
-                    "first_release_date": "1982-09",
+                    "first_release_date": "1982",
                     "platform_id": 2,
                     "platform_name": "DOS"
                 },
@@ -5582,7 +5582,7 @@ const games = [
             "official_url": null,
             "platforms": [
                 {
-                    "first_release_date": "1987-10",
+                    "first_release_date": "1987",
                     "platform_id": 2,
                     "platform_name": "DOS"
                 },
@@ -5701,7 +5701,7 @@ const games = [
             "official_url": null,
             "platforms": [
                 {
-                    "first_release_date": "1989-07-14",
+                    "first_release_date": "1989",
                     "platform_id": 2,
                     "platform_name": "DOS"
                 },
@@ -5951,7 +5951,7 @@ const games = [
             "official_url": null,
             "platforms": [
                 {
-                    "first_release_date": "1984-03",
+                    "first_release_date": "1984",
                     "platform_id": 2,
                     "platform_name": "DOS"
                 },
@@ -6097,7 +6097,7 @@ const games = [
             "official_url": null,
             "platforms": [
                 {
-                    "first_release_date": "1985-10",
+                    "first_release_date": "1985",
                     "platform_id": 2,
                     "platform_name": "DOS"
                 },
@@ -7596,7 +7596,7 @@ const games = [
             "official_url": null,
             "platforms": [
                 {
-                    "first_release_date": "1999-02",
+                    "first_release_date": "1999",
                     "platform_id": 3,
                     "platform_name": "Windows"
                 },
@@ -8012,7 +8012,7 @@ const games = [
             "official_url": null,
             "platforms": [
                 {
-                    "first_release_date": "1984-09",
+                    "first_release_date": "1984",
                     "platform_id": 4,
                     "platform_name": "PC Booter"
                 },
@@ -8198,7 +8198,7 @@ const games = [
             "official_url": null,
             "platforms": [
                 {
-                    "first_release_date": "1989-09",
+                    "first_release_date": "1989",
                     "platform_id": 2,
                     "platform_name": "DOS"
                 },
@@ -8551,7 +8551,7 @@ const games = [
             "official_url": null,
             "platforms": [
                 {
-                    "first_release_date": "1988-08",
+                    "first_release_date": "1988",
                     "platform_id": 2,
                     "platform_name": "DOS"
                 },
@@ -8877,7 +8877,7 @@ const games = [
             "official_url": null,
             "platforms": [
                 {
-                    "first_release_date": "2020-11-19",
+                    "first_release_date": "2020",
                     "platform_id": 3,
                     "platform_name": "Windows"
                 },
@@ -9314,7 +9314,7 @@ const games = [
             "official_url": null,
             "platforms": [
                 {
-                    "first_release_date": "1989-12",
+                    "first_release_date": "1989",
                     "platform_id": 2,
                     "platform_name": "DOS"
                 },
@@ -9419,7 +9419,7 @@ const games = [
             "official_url": null,
             "platforms": [
                 {
-                    "first_release_date": "1986-01",
+                    "first_release_date": "1986",
                     "platform_id": 2,
                     "platform_name": "DOS"
                 },
@@ -9548,7 +9548,7 @@ const games = [
             "official_url": null,
             "platforms": [
                 {
-                    "first_release_date": "1984-09",
+                    "first_release_date": "1984",
                     "platform_id": 2,
                     "platform_name": "DOS"
                 },
@@ -9727,7 +9727,7 @@ const games = [
             "official_url": null,
             "platforms": [
                 {
-                    "first_release_date": "1984-10",
+                    "first_release_date": "1984",
                     "platform_id": 2,
                     "platform_name": "DOS"
                 },
@@ -9956,7 +9956,7 @@ const games = [
             "official_url": null,
             "platforms": [
                 {
-                    "first_release_date": "1986-09",
+                    "first_release_date": "1986",
                     "platform_id": 4,
                     "platform_name": "PC Booter"
                 },
@@ -10297,7 +10297,7 @@ const games = [
             "official_url": null,
             "platforms": [
                 {
-                    "first_release_date": "1984-11",
+                    "first_release_date": "1984",
                     "platform_id": 2,
                     "platform_name": "DOS"
                 },
@@ -10465,7 +10465,7 @@ const games = [
             "official_url": null,
             "platforms": [
                 {
-                    "first_release_date": "1985-08",
+                    "first_release_date": "1985",
                     "platform_id": 2,
                     "platform_name": "DOS"
                 },
@@ -10578,7 +10578,7 @@ const games = [
             "official_url": null,
             "platforms": [
                 {
-                    "first_release_date": "1985-06",
+                    "first_release_date": "1985",
                     "platform_id": 2,
                     "platform_name": "DOS"
                 },
@@ -11187,7 +11187,7 @@ const games = [
             "official_url": null,
             "platforms": [
                 {
-                    "first_release_date": "1984-08",
+                    "first_release_date": "1984",
                     "platform_id": 4,
                     "platform_name": "PC Booter"
                 },
@@ -11615,7 +11615,7 @@ const games = [
             "official_url": null,
             "platforms": [
                 {
-                    "first_release_date": "1989-08",
+                    "first_release_date": "1989",
                     "platform_id": 2,
                     "platform_name": "DOS"
                 },
@@ -11906,7 +11906,7 @@ const games = [
             "official_url": null,
             "platforms": [
                 {
-                    "first_release_date": "1989-12",
+                    "first_release_date": "1989",
                     "platform_id": 2,
                     "platform_name": "DOS"
                 },
@@ -12430,7 +12430,7 @@ const games = [
             "official_url": null,
             "platforms": [
                 {
-                    "first_release_date": "1988-11",
+                    "first_release_date": "1988",
                     "platform_id": 2,
                     "platform_name": "DOS"
                 },

@@ -5,10 +5,16 @@ export default function Carousel(){
 
 
     return(
-        <div>
-            <div className="flex flex-row mx-2">
-                {games.map((game, index) => (
-                    <GameCard key={index} game={game}/>   
+        <div className="w-100 overflow-x-auto py-6">
+            <div className="flex flex-row mx-6">
+                {games.map((game) => (
+                    <GameCard 
+                        key={game.game_id} 
+                        title={game.title} 
+                        image={game.sample_cover.thumbnail_image} 
+                        score={game.moby_score} 
+                        description={game.description} 
+                        year={game.platforms[0].first_release_date}/>   
                 ))}
             </div>
         </div>

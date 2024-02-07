@@ -1,6 +1,6 @@
 import Navbar from "../components/Navbar";
-import Carousel from "../components/Carousel";
 import Footer from "../components/Footer";
+import CarouselHolder from "../components/CarouselHolder";
 
 
 export default function ProfilePage(){
@@ -10,7 +10,9 @@ export default function ProfilePage(){
             <main>
                 <section>
                     <div>
-                        <Carousel />
+                        <CarouselHolder title={"Highest Rating"}/>
+                        <CarouselHolder title={"Recent Releases"}/>
+                        <CarouselHolder title={"Popular Titles"}/>
                     </div>
                 </section>
             </main>
