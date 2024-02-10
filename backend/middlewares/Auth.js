@@ -1,6 +1,8 @@
 import jwt from "jsonwebtoken";
 import dotenv from "dotenv";
 dotenv.config();
+import asyncHandler from "../middlewares/AsyncHandler.js";
+import User from "../Models/UserModel.js";
 
 //@desc Authenticated user & get token
 const generateToken = (id) => {
@@ -9,4 +11,48 @@ const generateToken = (id) => {
     })
 }
 
-export {generateToken};
+
+//protection middleware
+const protect = asyncHandler(async (req,res,next) => {
+    let token;
+
+    //check if token exists in headers
+    if(
+        req.headers.authorization &&
+        req.headers.authorization.startsWith("Bearer")
+    ){
+        //set token from Bearer token in header
+        try{
+            token = req.headers.authorization.split(" ")[1];
+
+            //verify token and get user id
+            const decoded = jwt.verify(token, process.env.JWT_SECRET);
+
+            //get user id from decoded token
+            req.user = await User.findById(decoded.id).select("-password");
+            next();
+        }catch(error){
+            console.error(error);
+            res.status(401);
+            throw new Error("Not authorized, token failed");
+        }
+    }
+
+    //if token doesn't exist in headers send error 
+    if(!token){
+        res.status(401);
+        throw new Error("Not authorized, no token");
+    }
+})
+
+//admin middleware
+const admin = asyncHandler(async (req,res,next) =>{
+    if(req.user && req.user.isAdmin){
+        next();
+    } else{
+        res.status(401);
+        throw new Error("Not authorized as an admin");
+    }
+})
+
+export {generateToken, protect, admin};
