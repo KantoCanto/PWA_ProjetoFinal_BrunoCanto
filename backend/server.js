@@ -3,6 +3,7 @@ import cors from "cors";
 import dotenv from "dotenv";
 import {connectDB} from './config/db.js';
 import userRouter from "./Routes/UserRouter.js";
+import gamesRouter from "./Routes/GamesRouter.js";
 import errorHandler from "./middlewares/ErrorMiddleware.js";
 
 
@@ -30,6 +31,9 @@ app.get("/", (req,res) => {
 
 // -------User Routes
 app.use("/api/users", userRouter);
+
+// -------Game Routes
+app.use("/api/games", gamesRouter)
 
 // ERROR HANDLING MIDDLEWARE
 app.use(errorHandler);

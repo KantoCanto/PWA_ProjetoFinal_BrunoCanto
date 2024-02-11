@@ -1,11 +1,14 @@
-// @desc Register a new user
-// @route POST /api/users/register
-// @access Public
-
 import User from "../Models/UserModel.js";
 import asyncHandler from "../middlewares/AsyncHandler.js";
 import bcrypt from "bcryptjs";
 import { generateToken } from "../middlewares/Auth.js";
+
+
+// ---- PUBLIC CONTROLLERS ----
+
+// @desc register user
+// @route POST /api/users/
+// @access Public
 
 const registerUser = asyncHandler(async (req, res) => {
     const {username, email, password} = req.body;
@@ -50,6 +53,10 @@ const registerUser = asyncHandler(async (req, res) => {
         })
     }
 })
+
+// @desc login user
+// @route POST /api/users/login
+// @access Public
 
 const loginUser = asyncHandler(async (req, res) => {
     //get email and password from the form input
